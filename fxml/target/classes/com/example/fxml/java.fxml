@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?language javascript?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.fxml.Controller">
+    <Label fx:id="labelId" text="Hello World!"/>
+    <Button fx:id="buttonId" text="Click Me!" onAction="#click"/>
+</VBox>
